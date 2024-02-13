@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #fcfcfc;
+    background-image: url('wallpaper.jpg');
+}
+
+.contenedor{
+    margin: auto;
+    width: 900px;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    /* color: #fff; */
+}
+
+
+.opciones p{
+    background: black;
+    display: initial;
+    padding: 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+p.p1{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 100px;
+}
+p.p1:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+p.p2{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+    width: 100px;
+}
+p.p2:hover{
+    background: gray;
+    cursor: pointer;
+}
+#si{
+    background: #515050;
+    left: 420px;
+    position: absolute;
+    top: 122px;
+    width: 550px;
+    color: #ffffff;
+    padding: 50px;
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .contenedor{
+        width: 100%;
+    }
+    
+    .opciones p{
+        background: black;
+        display: initial;
+        padding: 12px;
+        color: #ffffff;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+
+    .opciones {
+        width: 100vw;
+    }
+    
+    p.p1{
+        position: absolute;
+        top: 500px;
+        left: 150px !important;
+        width: 100px;
+    }
+    p.p1:hover{
+        background: gray;
+        cursor: pointer;
+    }
+    
+    p.p2{
+        position: absolute;
+        top: 400px;
+        left: 150px !important;
+        width: 100px;
+    }
+    p.p2:hover{
+        background: gray;
+        cursor: pointer;
+    }
+    #si{
+        background: #515050;
+        left: 0px !important;
+        position: absolute;
+        top: 122px;
+        width: 550px;
+        color: #ffffff;
+        padding: 50px;
+        display: none;
+    }
+    
+}
